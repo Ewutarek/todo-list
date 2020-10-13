@@ -1,0 +1,23 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:focus {
+    outline: none;
+  }
+
+  li{
+      color: green;
+      cursor: pointer;
+  }
+
+  li:hover{
+      color: red;
+  }
+
+  .done{
+    color: red;
+    text-decoration: line-through red;
+  }
+  
+  
