@@ -22,7 +22,7 @@ const view = (state) => `
                 onclick= "app.run('done', ${task.id})"
                 class = "${task.status === 0 ? '': 'done'}"
                  >${task.text}</li> 
-                <button onclick="app.run('delete', ${task.id} )" >Delete</button>` 
+                <button id= "delete" onclick="app.run('delete', ${task.id} )">Delete</button>` 
             ).join("")}
         </ul>
     </section>
